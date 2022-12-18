@@ -48,7 +48,7 @@ void test(int a, int b)
 void main()
 {
     //variabili dove leggere gli input
-    int x, y, z;
+    int x, y;
     printf("Inserisci il valore di (x): \n");
     scanf("%d", &x);
     printf("Inserisci il valore di (y): \n");
