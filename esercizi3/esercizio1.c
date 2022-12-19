@@ -45,13 +45,13 @@ void test(int a, int b)
 
 }
 
-void main()
+int main()
 {
     //variabili dove leggere gli input
     int x, y;
-    printf("Inserisci il valore di (x): \n");
+    printf("Inserisci il valore di (x): ");
     scanf("%d", &x);
-    printf("Inserisci il valore di (y): \n");
+    printf("Inserisci il valore di (y): ");
     scanf("%d", &y);
     //testo la funzione
     test(x, y);
